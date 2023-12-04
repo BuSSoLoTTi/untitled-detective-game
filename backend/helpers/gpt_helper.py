@@ -10,7 +10,7 @@ from helpers.db_helper import DBHelper
 
 class GPTHelper:
     def __init__(self):
-        openai.api_key = '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'
+        openai.api_key = 'API_KEY'
 
     def __enter__(self):
         return self
